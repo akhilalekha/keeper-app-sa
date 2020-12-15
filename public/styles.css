@@ -1,15 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Zilla+Slab:wght@600&display=swap");
 * {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
 }
-html {
-	font-family: "Montserrat", sans-serif;
-}
+
 body {
 	background: #3d3b35;
 	padding: 0 16px;
 	background-image: url("https://www.transparenttextures.com/patterns/double-lined.png");
+	font-family: "Montserrat", sans-serif;
 }
 
 header {

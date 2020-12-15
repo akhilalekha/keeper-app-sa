@@ -4,7 +4,6 @@
 	"description": "front end only version of keeper app",
 	"keywords": [],
 	"main": "src/index.js",
-	"homepage": "http://akhilalekha.github.io/keeper-app-sa",
 	"dependencies": {
 		"@material-ui/core": "4.11.0",
 		"@material-ui/icons": "4.9.1",
@@ -13,16 +12,13 @@
 		"react-scripts": "^3.4.3"
 	},
 	"devDependencies": {
-		"gh-pages": "^3.1.0",
 		"typescript": "3.3.3"
 	},
 	"scripts": {
 		"start": "react-scripts start",
 		"build": "react-scripts build",
 		"test": "react-scripts test --env=jsdom",
-		"eject": "react-scripts eject",
-		"predeploy": "npm run build",
-		"deploy": "gh-pages -d build"
+		"eject": "react-scripts eject"
 	},
 	"browserslist": [
 		">0.2%",
